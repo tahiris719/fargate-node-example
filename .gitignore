@@ -1,0 +1,5 @@
+# GitHub
+.git/*
+
+# Imports
+node_modules/*
