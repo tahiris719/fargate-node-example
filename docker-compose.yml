@@ -1,0 +1,10 @@
+version: '3.8'
+name: express-app
+
+services:
+  web:
+    build: ./
+    command: npm start
+    container_name: express-web
+    ports:
+      - 3000:3000
